@@ -16,11 +16,13 @@ public class PositiveNumber {
         while (num <= 0) {
                 System.out.println("Reenter the positive value : ");
                 num = input.nextInt();
+
             }
         while (count <= num ){
 
             System.out.println(count );
             count ++;
+
         }
         }
     }
